@@ -1,0 +1,6 @@
+#Suma dos números complejos. Define dos números complejos y muestra el resultado de su suma
+
+numero1 = 12 + 3j 
+numero2 = 5 - 4j 
+suma = numero1 + numero2 
+print (f"La suma de {numero1} y {numero2} es {suma}")
