@@ -1,0 +1,21 @@
+#. Escribe un programa que sume números ingresados por el usuario hasta que ingrese 0. 
+
+def sumar_con_condicion(): 
+    while True: 
+        # Solicitar el primer número al usuario 
+        numero1 = int(input("Ingresa el primer número: ")) 
+         
+        # Solicitar el segundo número al usuario 
+        numero2 = int(input("Ingresa el segundo número (ingresa 0 para terminar): ")) 
+         
+        # Verificar si el segundo número es 0 y finalizar el programa 
+        if numero2 == 0: 
+            print("Programa terminado. ¡Hasta luego!") 
+            break 
+         
+        # Calcular la suma de los números 
+        suma = numero1 + numero2 
+        print(f"La suma de {numero1} y {numero2} es: {suma}") 
+ 
+# Llamar a la función 
+sumar_con_condicion()
