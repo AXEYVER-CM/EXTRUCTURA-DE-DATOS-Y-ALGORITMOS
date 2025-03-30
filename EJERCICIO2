@@ -1,0 +1,6 @@
+#2.Convierte grados Celsius a Fahrenheit. Pide al usuario que ingrese la temperatura en Celsius y muestra el resultado en Fahrenheit.
+
+Celsius = float (input ("Ingrese la temperatura en grados Celsius"))
+Fahrenheit = (Celsius * 9/5) + 32
+
+print (f"{Celsius} grados Celsius serian {Fahrenheit} grados Fahrenheit")
